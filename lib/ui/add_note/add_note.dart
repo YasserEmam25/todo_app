@@ -20,7 +20,7 @@ class _AddNoteState extends State<AddNote> {
           Stack(
             overflow: Overflow.visible,
             children: [
-              TaskList(),
+              const TaskList(),
               Container(
                 width: double.infinity,
                 height: 140,
